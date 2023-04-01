@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>HTML FORMS</h2>
+    <form action="backend.php">
+        <div>
+            <label for="Name"></label>
+            Name:<input type="text" name="MyName" id="Name">
+        </div>
+        <br>
+        <div>
+            <label for="Role"></label>
+            Role: <input type="text" name="MyRole" id="Role">
+        </div>
+        <br>
+        <div>
+            <label for="Email"></label>
+            Email: <input type="email" name="MyEmail" id="Email">
+        </div>
+        <br>
+        <div>
+            <label for="Date"></label>
+            Date: <input type="date" name="MyDate" id="Date">
+        </div>
+        <br>
+        <div>
+            <label for="Bonus"></label>
+            Bonus: <input type="number" name="MyNumber" id="Bonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="MyEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write about your self: <br><textarea name="MyText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="language"></label>
+            Choose your preferred language:<select name="language" id="language">
+                <option value="Eng" selected>English</option>
+                <option value="Hnd">Hindi</option>
+                <option value="Frn">French</option>
+                <option value="Gem">German</option>
+                <option value="Sans">Sanskrit</option>
+                <option value="Oth">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="reset Now">
+        </div>  
+    </form>
+</body>
+</html>
